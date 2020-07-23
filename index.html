@@ -8,7 +8,7 @@
 </head>
 <body>
 
-  <div class='main'>
+    <div class='main'>
     <div class="main-overlay"></div>
     <div class='header'>
         <div class="logo"><img src="Symbol.png" alt="logo"></div>
@@ -18,7 +18,7 @@
           <li><a href="#">Features</a></li>
           <li><a href="#">Articles</a></li>
           <li><a href="#">Pricing</a></li>
-          <li id='start'><a href="#">GET STARTE11D</a></li>
+          <a href="#" class='start'><span>GET STARTED</span></a>
         </ul></div>
     </div>
     <div class='main__content'>
@@ -29,17 +29,16 @@
     <div class='main__button'>
       <div class='main__button-item'><img src="down.png" alt="" class="bottonstr"></div>
     </div>
-  </div>
-  <div class='price'>
-    <div class='price__content'>
+    </div>
+
+    <div class='price'>
+       <div class='price__content'>
       <span>MISOCIAL</span>
       <h1>Select a Plan</h1>
       <p>Lorem ipsum sit amet,consectetur adispinching elit,sed dp euismod tempor incididunt ut.</p>
 
 
     </div>
-
-
     <div class='price__goods'>
 
       <div class='price__goods-item'>
@@ -49,16 +48,16 @@
 
             <h3>PERSONAL</h3>
 
-            <div id='price__goods-price'>
+            <div class='price__goods-price'>
               <img src="$.img" alt="" id="price__goods-price-image">
-              <div>
-                0 <span class="">/month</span>
+              <div class='price__goods-price-cen'>
+                0 <span class="price-month">/month</span>
               </div>
             </div>
 
-            <p class='price__content-text'>Lorem ipsum dolor sit amet.sed do eiusmod tempor incididunt ut.Labore et dolore magna aliqua.quis nostrud exercitation ullamco laboris.Ea commodo consequat.
+            <p class='price__content-text'>Lorem ipsum dolor sit amet.sed do eiusmod tempor incididunt ut.Labore et dolore magna aliqua.quis nostrud exercitation ullamco laboris.Ea commodo consequat.
             </p>
-            <div class='price_button'>SELECT PLAN</div>
+            <a href="#" class="price_button"><span class='span_select'>SELECT PLAN</span></a>
 
       </div>
 
@@ -69,14 +68,16 @@
 
           <h3>PERSONAL</h3>
 
-          <div id='price__goods-price'>
+          <div class='price__goods-price'>
             <img src="$.img" alt="" id="price__goods-price-image">
-            <h1>0</h1><p>/month</p>
+            <div class='price__goods-price-cen'>
+              28 <span class="price-month">/month</span>
+            </div>
           </div>
 
-          <p class='price__content-text'>Lorem ipsum dolor sit amet.sed do eiusmod tempor incididunt ut.Labore et dolore magna aliqua.quis nostrud exercitation ullamco laboris.Ea commodo consequat.
+          <p class='price__content-text'>Lorem ipsum dolor sit amet.sed do eiusmod tempor incididunt ut.Labore et dolore magna aliqua.quis nostrud exercitation ullamco laboris.Ea commodo consequat.
           </p>
-          <div class='price_button'>SELECT PLAN</div>
+          <a href="#" class="price_button"><span class='span_select'>SELECT PLAN</span></a>
 
     </div>
 
@@ -87,46 +88,60 @@
 
         <h3>PERSONAL</h3>
 
-        <div id='price__goods-price'>
+        <div class='price__goods-price'>
           <img src="$.img" alt="" id="price__goods-price-image">
-          <h1>0</h1><p>/month</p>
-        </div>
-
-        <p class='price__content-text'>Lorem ipsum dolor sit amet.sed do eiusmod tempor incididunt ut.Labore et dolore magna aliqua.quis nostrud exercitation ullamco laboris.Ea commodo consequat.
-        </p>
-        <div class='price_button'>SELECT PLAN</div>
-
-  </div>
-
-    
-      <!-- <div class='price__goods-center'>
-          <div class='price__pict'><img src="spacer2.png" alt=""> </d>
-            <h3>PERSONAL</h3>
-            <div id='price__goods-price'>
-              <img src="$.img" alt="" id="price__goods-price-image">
-              <h1>0</h1><p>/month</p>
-              </div>
-            <p class='price__content-text'>Lorem ipsum dolor sit amet.sed do eiusmod tempor incididunt ut.Labore et dolore magna aliqua.quis nostrud exercitation ullamco laboris.Ea commodo consequat.</p>
-            <div class='price_button'>SELECT PLAN</div>
+          <div class='price__goods-price-cen'>
+            43 <span class="price-month">/month</span>
           </div>
-      </div> -->
-
-
-      <!-- <div class='price__goods-right'>
-        <div class='price__pict'><img src="spacer3.png" alt="">
-          <h3>PERSONAL</h3>
-          <div id='price__goods-price'>
-            <img src="$.img" alt="" id="price__goods-price-image">
-            <h1>28</h1><p>/month</p>
-            </div>
-          <p class='price__content-text'>Lorem ipsum dolor sit amet.sed do eiusmod tempor incididunt ut.Labore et dolore magna aliqua.quis nostrud exercitation ullamco laboris.Ea commodo consequat.</p>
-          <div class='price_button'>SELECT PLAN</div>
         </div>
-      </div> -->
 
+        <p class='price__content-text'>Lorem ipsum dolor sit amet.sed do eiusmod tempor incididunt ut.Labore et dolore magna aliqua.quis nostrud exercitation ullamco laboris.Ea commodo consequat.
+        </p>
+        <a href="#" class="price_button"><span class='span_select'>SELECT PLAN</span></a>
 
     </div>
-  </div>
+    </div>
+
+    <div class='promo'>
+      <div class="promo-overlay"></div>
+        <div class='promo__center'>
+            <div class='promo__text'>
+              <p id='promor__text-1'>SOCAL MARKETING & ANALYTICS</p>
+              <p id='promor__text-2'>Take control of your data</p>
+            </div>
+
+            <div class='promo__buttons'>
+              <a ><a href="#"><span class='button1'>   GET STARTED   </span></a>
+              <a ><a href="#"><span class='button1'>EXPLORE FEATURES</span></a>
+             </div>
+
+     </div>
+
+     <div class="footer">
+        <div class='top__footer'>
+            <div class="logo1">
+              <img src="Symbol.png" alt="logo1">
+            </div>
+              <div class="menu_footer">
+               <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Why MISOCIAL</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Articles</a></li>
+                <li><a href="#">Pricing</a></li>
+                <a href="#" class='start1'><span id='span_footer'>GET STARTED</span></a>
+               </ul>
+              </div>
+        </div>
+        <div class='niz'>
+
+        </div>
+        <div class='footer_botton'>
+          <div><p>Corporated</p></div>
+          <div>VK,INST,TG</div>
+        </div>
+
+     </div>
 
 
 </body>
